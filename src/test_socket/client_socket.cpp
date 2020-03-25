@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     {
         return 0;
     }
-
+    // 开始的代码都差不多，先创建socket，再给出连接参数
     SOCKET sclient = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if(sclient == INVALID_SOCKET)
     {
@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
     serAddr.sin_family = AF_INET;
     serAddr.sin_port = htons(8888);
     serAddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
+    // 连接服务端，这是标准的socket函数。最后一个参数给出了serAddr的长度
     if (connect(sclient, (sockaddr *)&serAddr, sizeof(serAddr)) == SOCKET_ERROR)
     {
         printf("connect error !");
