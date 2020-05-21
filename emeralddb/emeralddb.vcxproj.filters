@@ -63,7 +63,7 @@
     <ClCompile Include="..\src\pmd\pmdEDU.cpp">
       <Filter>源文件\pmd</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\pmd\pmdEDUMgr.cpp">
+    <ClCompile Include="..\src\pmd\PmdEDUMgr.cpp">
       <Filter>源文件\pmd</Filter>
     </ClCompile>
     <ClCompile Include="..\src\msg\msg.cpp">
@@ -107,7 +107,7 @@
     <ClInclude Include="..\src\include\pmdEDUEvent.hpp">
       <Filter>头文件\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\include\pmdEDUMgr.hpp">
+    <ClInclude Include="..\src\include\PmdEDUMgr.hpp">
       <Filter>头文件\include</Filter>
     </ClInclude>
     <ClInclude Include="..\src\include\ossUtil.hpp">
@@ -120,5 +120,7 @@
   <ItemGroup>
     <None Include="..\src\bson\APACHE-2.0.txt" />
     <None Include="..\src\bson\GNU-AGPL-3.0.txt" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

@@ -20,10 +20,12 @@
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -102,7 +104,7 @@
     <ClCompile Include="..\src\pmd\pmd.cpp" />
     <ClCompile Include="..\src\pmd\pmdAgent.cpp" />
     <ClCompile Include="..\src\pmd\pmdEDU.cpp" />
-    <ClCompile Include="..\src\pmd\pmdEDUMgr.cpp" />
+    <ClCompile Include="..\src\pmd\PmdEDUMgr.cpp" />
     <ClCompile Include="..\src\pmd\pmdMain.cpp" />
     <ClCompile Include="..\src\pmd\pmdOptions.cpp" />
     <ClCompile Include="..\src\pmd\pmdTcpListener.cpp" />
@@ -124,13 +126,15 @@
     <ClInclude Include="..\src\include\pmd.hpp" />
     <ClInclude Include="..\src\include\pmdEDU.hpp" />
     <ClInclude Include="..\src\include\pmdEDUEvent.hpp" />
-    <ClInclude Include="..\src\include\pmdEDUMgr.hpp" />
+    <ClInclude Include="..\src\include\PmdEDUMgr.hpp" />
     <ClInclude Include="..\src\include\pmdOptions.hpp" />
     <ClInclude Include="..\src\include\wininc.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\src\bson\APACHE-2.0.txt" />
     <None Include="..\src\bson\GNU-AGPL-3.0.txt" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
