@@ -8,24 +8,28 @@ Tools
 Boost/thread BSON
 
 Envirements
-Install Boosts. See offcial document such as tutorial
-Install bson. just copy bson-cxx to src //note: in this respority already copyed
+1¡·Install Boosts. See offcial document such as tutorial
+2¡·Install bson. just copy bson-cxx to src //note: in this respority already copyed
+
 Install And Use
-git clone this repository
-run shell script build.sh to make.
+
+1> git clone this repository
+2> run shell script build.sh to make.
+
 And Then the executable file edb&emeralddb will be made in bin/
 
-run emralddb first
-run edb && input connect hostname port
-note: in this program connect localhost 12551
+3> run emralddb first
+4> run edb && input connect hostname port
 
-input insert {_id:1,key:"value"}
+  note: in this program connect localhost 12551
+
+5> input insert {_id:1,key:"value"}
 the key-value will be storaged in data file.
 
-input query {_id:1}
+6> input query {_id:1}
 the dataSystem will find the key in index and return the record
 
-input delete {_id:1}
+7> input delete {_id:1}
 the record and index of key will be erased in data file
 
 
