@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pmdEDUEvent">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAAABAAAAAAAAAAAAAAAAAgAEAAAAAAA=</HashCode>
+      <FileName>E:\mydb\emeralddb\src\include\pmdEDUEvent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pmdOptions">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAgIgAAQABYQAAAAAAABAAAAAJAIAAAAgAAAAQ=</HashCode>
+      <FileName>E:\mydb\emeralddb\src\include\pmdOptions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ossPrimitiveFileOp">
+    <Position X="5" Y="1" Width="3" />
+    <NestedTypes>
+      <Typedef Name="ossPrimitiveFileOp::handleType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>E:\mydb\emeralddb\src\include\ossPrimitiveFileOp.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAACAAoAAKAAQAAAEAAEgAAAAAIAAABAgAAGBAAQ=</HashCode>
+      <FileName>E:\mydb\emeralddb\src\include\ossPrimitiveFileOp.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="md5::md5digest" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\mydb\emeralddb\src\bson\src\lib\md5.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

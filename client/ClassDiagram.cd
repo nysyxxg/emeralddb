@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="mongo::AtomicUInt">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAQAEBQAAAAAAAAAAAAABAAAAAACA=</HashCode>
+      <FileName>E:\mydb\emeralddb\src\bson\src\lib\atomic_int.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

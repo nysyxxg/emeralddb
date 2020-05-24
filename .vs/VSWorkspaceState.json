@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\src",
+    "\\src\\test_socket"
+  ],
+  "SelectedNode": "\\src\\test_socket\\client_socket.cpp",
+  "PreviewInSolutionExplorer": false
+}
